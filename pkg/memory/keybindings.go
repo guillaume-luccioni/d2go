@@ -3,8 +3,8 @@ package memory
 import (
 	"encoding/binary"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/skill"
+	"github.com/guillaume-luccioni/d2go/pkg/data"
+	"github.com/guillaume-luccioni/d2go/pkg/data/skill"
 )
 
 func (gd *GameReader) GetKeyBindings() data.KeyBindings {

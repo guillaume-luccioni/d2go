@@ -5,8 +5,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/stat"
+	"github.com/guillaume-luccioni/d2go/pkg/data"
+	"github.com/guillaume-luccioni/d2go/pkg/data/stat"
 )
 
 type GameReader struct {

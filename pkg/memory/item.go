@@ -5,11 +5,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/item"
-	"github.com/hectorgimenez/d2go/pkg/data/stat"
-	"github.com/hectorgimenez/d2go/pkg/data/state"
-	"github.com/hectorgimenez/d2go/pkg/utils"
+	"github.com/guillaume-luccioni/d2go/pkg/data"
+	"github.com/guillaume-luccioni/d2go/pkg/data/item"
+	"github.com/guillaume-luccioni/d2go/pkg/data/stat"
+	"github.com/guillaume-luccioni/d2go/pkg/data/state"
+	"github.com/guillaume-luccioni/d2go/pkg/utils"
 )
 
 func (gd *GameReader) Inventory(rawPlayerUnits RawPlayerUnits, hover data.HoverData) data.Inventory {

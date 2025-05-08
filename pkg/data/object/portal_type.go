@@ -1,6 +1,6 @@
 package object
 
-import "github.com/hectorgimenez/d2go/pkg/data/area"
+import "github.com/guillaume-luccioni/d2go/pkg/data/area"
 
 type PortalData struct {
 	DestArea area.ID

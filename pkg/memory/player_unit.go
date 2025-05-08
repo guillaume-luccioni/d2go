@@ -1,11 +1,11 @@
 package memory
 
 import (
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/area"
-	"github.com/hectorgimenez/d2go/pkg/data/mode"
-	"github.com/hectorgimenez/d2go/pkg/data/stat"
-	"github.com/hectorgimenez/d2go/pkg/data/state"
+	"github.com/guillaume-luccioni/d2go/pkg/data"
+	"github.com/guillaume-luccioni/d2go/pkg/data/area"
+	"github.com/guillaume-luccioni/d2go/pkg/data/mode"
+	"github.com/guillaume-luccioni/d2go/pkg/data/stat"
+	"github.com/guillaume-luccioni/d2go/pkg/data/state"
 )
 
 type RawPlayerUnit struct {

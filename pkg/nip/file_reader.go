@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/item"
+	"github.com/guillaume-luccioni/d2go/pkg/data"
+	"github.com/guillaume-luccioni/d2go/pkg/data/item"
 )
 
 func ReadDir(path string) (Rules, error) {

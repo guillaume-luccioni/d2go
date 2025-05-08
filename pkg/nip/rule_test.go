@@ -3,9 +3,9 @@ package nip
 import (
 	"testing"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/item"
-	"github.com/hectorgimenez/d2go/pkg/data/stat"
+	"github.com/guillaume-luccioni/d2go/pkg/data"
+	"github.com/guillaume-luccioni/d2go/pkg/data/item"
+	"github.com/guillaume-luccioni/d2go/pkg/data/stat"
 	"github.com/stretchr/testify/require"
 )
 

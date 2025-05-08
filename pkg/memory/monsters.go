@@ -3,12 +3,12 @@ package memory
 import (
 	"sort"
 
-	"github.com/hectorgimenez/d2go/pkg/data/mode"
+	"github.com/guillaume-luccioni/d2go/pkg/data/mode"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/npc"
-	"github.com/hectorgimenez/d2go/pkg/data/stat"
-	"github.com/hectorgimenez/d2go/pkg/utils"
+	"github.com/guillaume-luccioni/d2go/pkg/data"
+	"github.com/guillaume-luccioni/d2go/pkg/data/npc"
+	"github.com/guillaume-luccioni/d2go/pkg/data/stat"
+	"github.com/guillaume-luccioni/d2go/pkg/utils"
 )
 
 func (gd *GameReader) Monsters(playerPosition data.Position, hover data.HoverData) data.Monsters {
@@ -237,10 +237,10 @@ func (gd *GameReader) shouldBeIgnored(txtNo uint) bool {
 		npc.DeathSentry,
 		npc.BaalThrone,
 		npc.BaalTentacle,
-                npc.BaalTentacle2,
-                npc.BaalTentacle3,
-                npc.BaalTentacle4,
-                npc.BaalTentacle5,
+		npc.BaalTentacle2,
+		npc.BaalTentacle3,
+		npc.BaalTentacle4,
+		npc.BaalTentacle5,
 		npc.InjuredBarbarian,
 		npc.InjuredBarbarian2,
 		npc.InjuredBarbarian3,
