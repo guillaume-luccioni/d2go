@@ -43,6 +43,16 @@ func (i Inventory) FindByID(unitID UnitID) (Item, bool) {
 	return Item{}, false
 }
 
+func (i Inventory) FindByItemID(id int) (Item, bool) {
+	for _, it := range i.AllItems {
+		if it.ID == id {
+			return it, true
+		}
+	}
+
+	return Item{}, false
+}
+
 func (i Inventory) ByLocation(locations ...item.LocationType) []Item {
 	var items []Item
 
