@@ -117,6 +117,12 @@ func NewRule(rawRule string, filename string, lineNumber int) (Rule, error) {
 			// Extract stats before removing brackets for compilation
 			r.requiredStats = getRequiredStatsForRule(stage2)
 
+			for _, statName := range r.requiredStats {
+				if _, ok := statAliases[statName]; !ok {
+					return Rule{}, fmt.Errorf("unknown stat alias [%s] in rule: %s (file: %s, line: %d)", statName, rawRule, filename, lineNumber)
+				}
+			}
+
 			statsMap := make(map[string]int)
 			for _, prop := range r.requiredStats {
 				statsMap[prop] = 0
